@@ -1,9 +1,14 @@
 <?php
-class contoh1 extends CI_Controller
+namespace App\Controllers;
+use App\Models\ModelLatihan1;
+use App\Controllers\BaseController;
+
+class Contoh1 extends BaseController
 {
     public function index()
     {
         echo "<h1>Perkenalkan</h1>";
-        echo " Nama saya Robby HazwaRizki saya tinggal di kampung karang tengah, olahraga yang saya sukai adalah basket ";
+        echo "Nama saya Imam Sarifhudin saya tinggal di perumahan pesona anggrek harapan";
     }
 }
+?>
